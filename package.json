@@ -1,7 +1,7 @@
 {
-  "name": "learn-travis-michaelmusty",
-  "description": "Simple Travis-CI check for JSHint (Code Linting)",
-  "author": "your name here :-)",
+  "name": "dessinjs",
+  "description": "playing around with dessins and javascript",
+  "author": "michaelmusty",
   "version": "0.0.1",
   "devDependencies": {
     "jshint": "^2.10.2"
