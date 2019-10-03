@@ -2,24 +2,29 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>dessinjs</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet"> 
   <link href="styles/style.css" rel="stylesheet">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <div class="split left">
-    <div class="centered">
-      <h2>Jane Flex</h2>
-      <p>Some text.</p>
+  <div class="wrap">
+    <div class="fleft">
+      <div class="text-align-center">
+        <h2>3T2-[3,2,2]-3-21-21-g0-a</h2>
+        \(\varphi=\frac{2}{4x^3-3x+1}\)
+      </div>
+    </div>
+    <div class="fright">
+      <div class="text-align-center">
+        <svg>
+          <circle style="fill: pink" stroke="black" cx=50 cy=50 r=40></circle>
+        </svg>
+      </div>
     </div>
   </div>
-  <div class="split right">
-    <div class="centered">
-      <main></main>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/three@v0.108.0/examples/js/controls/OrbitControls.js"></script>
-      <script src="scripts/script.js"></script>
-    </div>
-  </div> 
 </body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="scripts/3t2.js"></script>
 </html>
